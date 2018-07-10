@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
-using WebApplication1.Services;
+using LiveChat.Services;
 
-namespace WebApplication1.Services
+namespace LiveChat.Services
 {
     public static class EmailSenderExtensions
     {

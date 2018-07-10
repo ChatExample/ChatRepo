@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace WebApplication1.Data.Migrations
+namespace LiveChat.Data.Migrations
 {
     public partial class AddingModels : Migration
     {

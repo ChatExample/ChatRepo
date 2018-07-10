@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebApplication1.Data;
+using LiveChat.Data;
 
-namespace WebApplication1.Data.Migrations
+namespace LiveChat.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20180706113806_AddingModels")]
@@ -131,7 +131,7 @@ namespace WebApplication1.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("WebApplication1.Models.ApplicationUser", b =>
+            modelBuilder.Entity("LiveChat.Models.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .ValueGeneratedOnAdd();
@@ -182,7 +182,7 @@ namespace WebApplication1.Data.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("WebApplication1.Models.ChatRoom", b =>
+            modelBuilder.Entity("LiveChat.Models.ChatRoom", b =>
                 {
                     b.Property<int>("ChatRoomId")
                         .ValueGeneratedOnAdd()
@@ -197,7 +197,7 @@ namespace WebApplication1.Data.Migrations
                     b.ToTable("ChatRooms");
                 });
 
-            modelBuilder.Entity("WebApplication1.Models.Message", b =>
+            modelBuilder.Entity("LiveChat.Models.Message", b =>
                 {
                     b.Property<int>("MessageId")
                         .ValueGeneratedOnAdd()
@@ -220,7 +220,7 @@ namespace WebApplication1.Data.Migrations
                     b.ToTable("Messages");
                 });
 
-            modelBuilder.Entity("WebApplication1.Models.UserChatRoom", b =>
+            modelBuilder.Entity("LiveChat.Models.UserChatRoom", b =>
                 {
                     b.Property<string>("UserId");
 
@@ -243,7 +243,7 @@ namespace WebApplication1.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("WebApplication1.Models.ApplicationUser")
+                    b.HasOne("LiveChat.Models.ApplicationUser")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -251,7 +251,7 @@ namespace WebApplication1.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("WebApplication1.Models.ApplicationUser")
+                    b.HasOne("LiveChat.Models.ApplicationUser")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -264,7 +264,7 @@ namespace WebApplication1.Data.Migrations
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("WebApplication1.Models.ApplicationUser")
+                    b.HasOne("LiveChat.Models.ApplicationUser")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -272,32 +272,32 @@ namespace WebApplication1.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("WebApplication1.Models.ApplicationUser")
+                    b.HasOne("LiveChat.Models.ApplicationUser")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("WebApplication1.Models.Message", b =>
+            modelBuilder.Entity("LiveChat.Models.Message", b =>
                 {
-                    b.HasOne("WebApplication1.Models.ChatRoom", "ChatRoom")
+                    b.HasOne("LiveChat.Models.ChatRoom", "ChatRoom")
                         .WithMany("Messages")
                         .HasForeignKey("ChatRoomId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("WebApplication1.Models.ApplicationUser", "User")
+                    b.HasOne("LiveChat.Models.ApplicationUser", "User")
                         .WithMany("Messages")
                         .HasForeignKey("UserId");
                 });
 
-            modelBuilder.Entity("WebApplication1.Models.UserChatRoom", b =>
+            modelBuilder.Entity("LiveChat.Models.UserChatRoom", b =>
                 {
-                    b.HasOne("WebApplication1.Models.ChatRoom", "ChatRoom")
+                    b.HasOne("LiveChat.Models.ChatRoom", "ChatRoom")
                         .WithMany("Users")
                         .HasForeignKey("ChatRoomId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("WebApplication1.Models.ApplicationUser", "User")
+                    b.HasOne("LiveChat.Models.ApplicationUser", "User")
                         .WithMany("ChatRooms")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);

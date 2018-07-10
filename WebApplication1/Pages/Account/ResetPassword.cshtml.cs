@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using WebApplication1.Data;
-using WebApplication1.Models;
+using LiveChat.Data;
+using LiveChat.Models;
 
-namespace WebApplication1.Pages.Account
+namespace LiveChat.Pages.Account
 {
     public class ResetPasswordModel : PageModel
     {

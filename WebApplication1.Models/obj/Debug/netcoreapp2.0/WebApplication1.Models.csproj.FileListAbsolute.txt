@@ -1,0 +1,9 @@
+E:\Naxex\WebApplication1.Models\bin\Debug\netcoreapp2.0\WebApplication1.Models.deps.json
+E:\Naxex\WebApplication1.Models\bin\Debug\netcoreapp2.0\WebApplication1.Models.dll
+E:\Naxex\WebApplication1.Models\bin\Debug\netcoreapp2.0\WebApplication1.Models.pdb
+E:\Naxex\WebApplication1.Models\obj\Debug\netcoreapp2.0\WebApplication1.Models.csprojResolveAssemblyReference.cache
+E:\Naxex\WebApplication1.Models\obj\Debug\netcoreapp2.0\WebApplication1.Models.csproj.CoreCompileInputs.cache
+E:\Naxex\WebApplication1.Models\obj\Debug\netcoreapp2.0\WebApplication1.Models.AssemblyInfoInputs.cache
+E:\Naxex\WebApplication1.Models\obj\Debug\netcoreapp2.0\WebApplication1.Models.AssemblyInfo.cs
+E:\Naxex\WebApplication1.Models\obj\Debug\netcoreapp2.0\WebApplication1.Models.dll
+E:\Naxex\WebApplication1.Models\obj\Debug\netcoreapp2.0\WebApplication1.Models.pdb

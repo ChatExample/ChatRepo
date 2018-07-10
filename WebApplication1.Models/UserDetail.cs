@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WebApplication1.Models
+namespace LiveChat.Models
 {
     public class UserDetail
     {

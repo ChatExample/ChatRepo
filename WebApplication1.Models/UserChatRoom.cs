@@ -1,4 +1,4 @@
-﻿namespace WebApplication1.Models
+﻿namespace LiveChat.Models
 {
     public class UserChatRoom
     {

@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using WebApplication1.Data;
-using WebApplication1.Models;
+using LiveChat.Data;
+using LiveChat.Models;
 
-namespace WebApplication1.Controllers
+namespace LiveChat.Controllers
 {
     [Route("[controller]/[action]")]
     public class AccountController : Controller

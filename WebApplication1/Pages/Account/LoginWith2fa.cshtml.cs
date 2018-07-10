@@ -7,10 +7,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using WebApplication1.Data;
-using WebApplication1.Models;
+using LiveChat.Data;
+using LiveChat.Models;
 
-namespace WebApplication1.Pages.Account
+namespace LiveChat.Pages.Account
 {
     public class LoginWith2faModel : PageModel
     {

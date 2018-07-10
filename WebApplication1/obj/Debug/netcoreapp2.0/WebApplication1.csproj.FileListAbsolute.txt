@@ -1,0 +1,16 @@
+E:\Naxex\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.deps.json
+E:\Naxex\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.json
+E:\Naxex\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.dev.json
+E:\Naxex\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.dll
+E:\Naxex\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.pdb
+E:\Naxex\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.Data.dll
+E:\Naxex\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.Models.dll
+E:\Naxex\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.Data.pdb
+E:\Naxex\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.Models.pdb
+E:\Naxex\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csprojResolveAssemblyReference.cache
+E:\Naxex\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csproj.CoreCompileInputs.cache
+E:\Naxex\WebApplication1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+E:\Naxex\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfoInputs.cache
+E:\Naxex\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfo.cs
+E:\Naxex\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.dll
+E:\Naxex\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.pdb

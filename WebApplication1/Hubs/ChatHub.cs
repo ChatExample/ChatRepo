@@ -2,11 +2,12 @@
 using Microsoft.AspNetCore.SignalR;
 using System;
 using System.Threading.Tasks;
-using WebApplication1.Models;
-using WebApplication1.Services;
-using WebApplication1.Services.Contracts;
+using LiveChat.Models;
+using LiveChat.Services;
+using LiveChat.Services.Contracts;
+using System.Linq;
 
-namespace WebApplication1.Hubs
+namespace LiveChat.Hubs
 {
     public class ChatHub : Hub
     {
@@ -49,6 +50,23 @@ namespace WebApplication1.Hubs
         {
             await Clients.All.SendAsync("ReceiveMessage", user, message);
             await this.chatService.SaveMessage(message, user);
+        }
+
+        public void SendPrivateMessage(string toUserId, string message, string fromUserId, ChatHub chathub)
+        {
+
+            var toUser = ChatService.ConnectedUsers.FirstOrDefault(x => x.UserID == toUserId);
+            var fromUser = ChatService.ConnectedUsers.FirstOrDefault(x => x.UserID == fromUserId);
+
+            if (toUser != null && fromUser != null)
+            {
+                // send to 
+                //Clients.Client(toUser.ConnectionId).SendAsync(fromUser.ConnectionId, fromUser.UserName, message);
+
+                // send to caller user
+                chathub.Clients.Caller.SendAsync(toUserId, fromUser.ConnectionId, message);
+            }
+
         }
     }
 }

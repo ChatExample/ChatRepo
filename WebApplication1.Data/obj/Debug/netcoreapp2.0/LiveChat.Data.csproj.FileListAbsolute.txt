@@ -1,0 +1,13 @@
+E:\Naxex\WebApplication1.Data\bin\Debug\netcoreapp2.0\LiveChat.Data.deps.json
+E:\Naxex\WebApplication1.Data\bin\Debug\netcoreapp2.0\LiveChat.Data.runtimeconfig.json
+E:\Naxex\WebApplication1.Data\bin\Debug\netcoreapp2.0\LiveChat.Data.runtimeconfig.dev.json
+E:\Naxex\WebApplication1.Data\bin\Debug\netcoreapp2.0\LiveChat.Data.dll
+E:\Naxex\WebApplication1.Data\bin\Debug\netcoreapp2.0\LiveChat.Data.pdb
+E:\Naxex\WebApplication1.Data\bin\Debug\netcoreapp2.0\LiveChat.Models.dll
+E:\Naxex\WebApplication1.Data\bin\Debug\netcoreapp2.0\LiveChat.Models.pdb
+E:\Naxex\WebApplication1.Data\obj\Debug\netcoreapp2.0\LiveChat.Data.csprojResolveAssemblyReference.cache
+E:\Naxex\WebApplication1.Data\obj\Debug\netcoreapp2.0\LiveChat.Data.csproj.CoreCompileInputs.cache
+E:\Naxex\WebApplication1.Data\obj\Debug\netcoreapp2.0\LiveChat.Data.AssemblyInfoInputs.cache
+E:\Naxex\WebApplication1.Data\obj\Debug\netcoreapp2.0\LiveChat.Data.AssemblyInfo.cs
+E:\Naxex\WebApplication1.Data\obj\Debug\netcoreapp2.0\LiveChat.Data.dll
+E:\Naxex\WebApplication1.Data\obj\Debug\netcoreapp2.0\LiveChat.Data.pdb

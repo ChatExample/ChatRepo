@@ -4,10 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Data;
-using WebApplication1.Models;
+using LiveChat.Data;
+using LiveChat.Models;
 
-namespace WebApplication1.Data
+namespace LiveChat.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

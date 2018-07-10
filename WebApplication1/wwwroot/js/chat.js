@@ -18,7 +18,24 @@ connection.on("ReceiveMessage", (user, message) => {
     document.getElementById("messagesList").appendChild(li);
 });
 
+connection.sendPrivateMessage = function (windowId, fromUserName, message) {
 
+    var ctrId = 'private_' + windowId;
+
+
+    if ($('#' + ctrId).length == 0) {
+
+        createPrivateChatWindow(chatHub, windowId, ctrId, fromUserName);
+
+    }
+
+    $('#' + ctrId).find('#divMessage').append('<div class="message"><span class="userName">' + fromUserName + '</span>: ' + message + '</div>');
+
+    // set scrollbar
+    var height = $('#' + ctrId).find('#divMessage')[0].scrollHeight;
+    $('#' + ctrId).find('#divMessage').scrollTop(height);
+
+}
 
 connection.start().catch(err => console.error(err.toString()));
 

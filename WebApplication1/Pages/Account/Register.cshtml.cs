@@ -7,11 +7,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using WebApplication1.Data;
-using WebApplication1.Models;
-using WebApplication1.Services;
+using LiveChat.Data;
+using LiveChat.Models;
+using LiveChat.Services;
 
-namespace WebApplication1.Pages.Account
+namespace LiveChat.Pages.Account
 {
     public class RegisterModel : PageModel
     {

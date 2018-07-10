@@ -9,13 +9,13 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using WebApplication1.Data;
-using WebApplication1.Services;
-using WebApplication1.Hubs;
-using WebApplication1.Models;
-using WebApplication1.Services.Contracts;
+using LiveChat.Data;
+using LiveChat.Services;
+using LiveChat.Hubs;
+using LiveChat.Models;
+using LiveChat.Services.Contracts;
 
-namespace WebApplication1
+namespace LiveChat
 {
     public class Startup
     {
@@ -39,7 +39,7 @@ namespace WebApplication1
                 .AddDefaultTokenProviders();
 
             services.AddTransient<IChatService, ChatService>();
-
+            services.AddTransient<ChatHub>();
             services.AddSignalR();
 
             services.AddMvc()
@@ -71,7 +71,7 @@ namespace WebApplication1
             app.UseStaticFiles();
 
             app.UseCors("CorsPolicy");
-           
+
 
             app.UseAuthentication();
 
@@ -80,7 +80,12 @@ namespace WebApplication1
                 routes.MapHub<ChatHub>("/chatHub");
             });
 
-            app.UseMvc();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller}/{action}/{id?}");//
+            });
         }
     }
 }
