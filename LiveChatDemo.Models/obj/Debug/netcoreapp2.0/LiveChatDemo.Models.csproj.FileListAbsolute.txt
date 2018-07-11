@@ -1,0 +1,9 @@
+E:\NaxexFinal\LiveChatDemo\LiveChatDemo.Models\bin\Debug\netcoreapp2.0\LiveChatDemo.Models.deps.json
+E:\NaxexFinal\LiveChatDemo\LiveChatDemo.Models\bin\Debug\netcoreapp2.0\LiveChatDemo.Models.dll
+E:\NaxexFinal\LiveChatDemo\LiveChatDemo.Models\bin\Debug\netcoreapp2.0\LiveChatDemo.Models.pdb
+E:\NaxexFinal\LiveChatDemo\LiveChatDemo.Models\obj\Debug\netcoreapp2.0\LiveChatDemo.Models.csproj.CoreCompileInputs.cache
+E:\NaxexFinal\LiveChatDemo\LiveChatDemo.Models\obj\Debug\netcoreapp2.0\LiveChatDemo.Models.AssemblyInfoInputs.cache
+E:\NaxexFinal\LiveChatDemo\LiveChatDemo.Models\obj\Debug\netcoreapp2.0\LiveChatDemo.Models.AssemblyInfo.cs
+E:\NaxexFinal\LiveChatDemo\LiveChatDemo.Models\obj\Debug\netcoreapp2.0\LiveChatDemo.Models.dll
+E:\NaxexFinal\LiveChatDemo\LiveChatDemo.Models\obj\Debug\netcoreapp2.0\LiveChatDemo.Models.pdb
+E:\NaxexFinal\LiveChatDemo\LiveChatDemo.Models\obj\Debug\netcoreapp2.0\LiveChatDemo.Models.csprojResolveAssemblyReference.cache
